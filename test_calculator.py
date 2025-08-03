@@ -1,3 +1,7 @@
+# https://github.com/r-kriener/lab10-RK-LT
+# Partner 1: Logan Thomley
+# Partner 2: RyLee Kriener
+
 import unittest
 from calculator import *
 
