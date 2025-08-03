@@ -39,13 +39,13 @@ class TestCalculator(unittest.TestCase):
             div(0,5)
 
     def test_logarithm(self): # 3 assertions
-        self.assertAlmostEqual(logarithm(8, 2), 3.0)
-        self.assertAlmostEqual(logarithm(100, 10), 2.0)
-        self.assertAlmostEqual(logarithm(4, 16), 0.25)
+        self.assertAlmostEqual(logarithm(2, 8), 3.0)
+        self.assertAlmostEqual(logarithm(10, 100), 2.0)
+        self.assertAlmostEqual(logarithm(16, 4), 0.25)
 
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
-            logarithm(10, 1)
+            logarithm(1, 10)
     # ##########################
     
     ######## Partner 1
